@@ -10,5 +10,5 @@ app.use('/dat/', express.static(path.join(__dirname, 'node_modules/dat.gui/build
 app.use('/jquery/', express.static(path.join(__dirname, 'node_modules/jquery/dist')));
 app.use('/assets/', express.static(path.join(__dirname, 'assets')));
 app.listen(3000, () =>
-  console.log('Visit http://127.0.0.1:3000')
+  console.log('Visit http://localhost:3000')
 );
